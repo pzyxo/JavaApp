@@ -171,7 +171,7 @@ public class frame1 extends javax.swing.JFrame {
             bilanganAwal++;
         }
         
-        
+        //untuk program menunjukkan bilangan genap / ganjil, maka jumlah bilangan dikalikan dua
         for (i = 1; i <= jumlah * 2 ; i++){
                 if (i % 2 == 0){
                     bilanganGp += String.valueOf(i);
